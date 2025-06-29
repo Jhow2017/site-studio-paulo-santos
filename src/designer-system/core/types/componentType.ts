@@ -3,8 +3,8 @@ import { BreakpointProps } from '../../config';
 import { StylesType } from './stylesType';
 
 type ComponentType = {
-    ref?: Ref<any>;
-    forwardedRef?: Ref<any>;
+    ref?: Ref<unknown>;
+    forwardedRef?: Ref<unknown>;
     className?: string;
     id?: string;
     style?: CSSProperties;
